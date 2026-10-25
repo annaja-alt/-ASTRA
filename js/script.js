@@ -1,4 +1,4 @@
-// Navegação móvel. No desktop, os links aparecem diretamente no cabeçalho.
+
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 function closeMenu() {
