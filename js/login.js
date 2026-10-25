@@ -30,7 +30,6 @@ tabs.forEach((tab, index) => {
 });
 document.querySelector('#switch-auth').addEventListener('click', () => setMode(!registering));
 setMode(new URLSearchParams(location.search).get('modo') === 'cadastro');
-// Somente demonstração: não envia nem armazena e-mail/senha.
 document.querySelector('#auth-panel').addEventListener('submit', event => {
   event.preventDefault();
   if (event.currentTarget.reportValidity()) {
